@@ -61,5 +61,4 @@ namespace PrototypePattern
             return JsonConvert.DeserializeObject<T>(JsonConvert.SerializeObject(self));
         }
     }
-
 }
